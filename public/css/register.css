@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+main {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ebebeb;
+    max-width: 450px;
+}
+
+body form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+body form button {
+    width: 20%;
+    margin: 10px;
+
+}
+
+body form input,
+body form label {
+    margin: 9px;
+}
+
